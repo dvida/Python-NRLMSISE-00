@@ -27,6 +27,8 @@ This is the test program, and the output should be compaired to
  */
 """
 
+from __future__ import print_function, division, absolute_import
+
 import time
 from nrlmsise_00_header import *
 from nrlmsise_00 import *

@@ -1,3 +1,5 @@
 /lookat.txt
 /__pycache__
 /test.py
+
+*.pyc
