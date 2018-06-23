@@ -29,7 +29,7 @@ This is the main program that contains all the functions
 from __future__ import print_function, division, absolute_import
 
 
-from PythonNRLMSISE00.nrlmsise_00_header import *
+from wmpl.PythonNRLMSISE00.nrlmsise_00_header import *
 from math import *
 
 """
@@ -65,7 +65,7 @@ meso_tgn3 = [0.0 for _ in range(2)];
 #/* POWER7 */
 #/* LOWER7 */
 #Dont to need to do anyt of the externs, they are all here
-from PythonNRLMSISE00.nrlmsise_00_data import *
+from wmpl.PythonNRLMSISE00.nrlmsise_00_data import *
 
 
 #/* LPOLY */

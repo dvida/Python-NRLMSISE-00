@@ -30,8 +30,8 @@ This is the test program, and the output should be compaired to
 from __future__ import print_function, division, absolute_import
 
 import time
-from PythonNRLMSISE00.nrlmsise_00_header import *
-from PythonNRLMSISE00.nrlmsise_00 import *
+from wmpl.PythonNRLMSISE00.nrlmsise_00_header import *
+from wmpl.PythonNRLMSISE00.nrlmsise_00 import *
 
 def test_gtd7():
     output = [nrlmsise_output() for _ in range(17)]
